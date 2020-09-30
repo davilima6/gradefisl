@@ -27,3 +27,4 @@ if 'debug_toolbar_htmltidy' in settings.INSTALLED_APPS:
     urlpatterns += patterns('',
         url(r'^', include('debug_toolbar_htmltidy.urls')),
     )
+    end
